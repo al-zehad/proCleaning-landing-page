@@ -1,0 +1,150 @@
+/* All Common CSS Starts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+ul, ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    border: none;
+}
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+/* All Common CSS Ends */
+
+/* Header Part Starts */
+#header {
+    padding: 18px 0;
+}
+.headerFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li {
+    color: #4D4D4D;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+nav ul li:hover {
+    color: #36B864;
+    font-weight: 500;
+}
+.headerBtn button {
+    padding: 9px 24px;
+    background: #36B864;
+    border-radius: 4.5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+}
+/* Header Part Ends */
+
+/* Hero Section Starts */
+#hero {
+    width: 100%;
+    background: url(../images/heroImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.heroContent {
+    padding: 200px 0;
+}
+.heroContentTop span {
+    color: #111D15;
+    font-size: 15px;
+    line-height: 120%;
+}
+.heroContentTop h1 {
+    width: 458px;
+    color: #111D15;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 115%;
+    padding-top: 15px;
+    padding-bottom: 18px;
+}
+.heroContentTop p {
+    width: 407px;
+    color: #666666;
+    font-size: 13.5px;
+    line-height: 22.5px;
+    padding-bottom: 30px;
+}
+
+.heroBtn {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+.heroBtn .BtnOne {
+    padding: 13px 24px;
+    background: #36B864;
+    border-radius: 4.5px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+.heroBtn .BtnTwo {
+    padding: 13px 24px;
+    background: transparent;
+    border: 1px solid #666666;
+    border-radius: 4.5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+/* Hero Section Ends */
+
+
+/* Service Section Starts */
+#service {
+    margin-top: 112px;
+}
+.serviceTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.serviceTop h2 {
+    width: 402px;
+    color: #111D15;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 120%;
+}
+.serviceTopRight h3 {
+    color: #111D15;
+    font-size: 15px;
+    font-weight: 600;
+}
+.serviceTopRight p {
+    width: 324px;
+    color: #666666;
+    font-size: 12px;
+    line-height: 150%;
+    margin-top: 9px;
+}
+/* Service Section Ends */
