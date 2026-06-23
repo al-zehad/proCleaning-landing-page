@@ -18,10 +18,41 @@ a {
 }
 button {
     border: none;
+    cursor: pointer;
 }
 .container {
-    width: 1320px;
+    width: 1100px;
     margin: 0 auto;
+}
+
+.sectionTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.sectionTop h2 {
+    width: 402px;
+    color: #111D15;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 120%;
+}
+.sectionTopRight h3 {
+    color: #111D15;
+    font-size: 15px;
+    font-weight: 600;
+}
+.sectionTopRight p {
+    width: 324px;
+    color: #666666;
+    font-size: 12px;
+    line-height: 150%;
+    margin-top: 9px;
+}
+hr {
+    margin: 30px 0;
+    border: 0.75px solid #83A790;
 }
 /* All Common CSS Ends */
 
@@ -122,29 +153,526 @@ nav ul li:hover {
 #service {
     margin-top: 112px;
 }
-.serviceTop {
+
+.cardFlex {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    margin-bottom: 56px;
+}
+.card h4 {
+    color: #111D15;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    padding: 12px 0;
+}
+.card p {
+    width: 277px;
+    color: #666666;
+    font-size: 12px;
+    line-height: 150%;
+    padding-bottom: 18px;
+}
+.cardBtn button {
+    background: transparent;
+    padding: 9px 15px;
+    color: #111D15;
+    font-size: 12px;
+    border: 0.75px solid #666666;
+    border-radius: 4.5px;
+    margin-bottom: 23px;
+    transition: all 0.3s;
+}
+.cardBtn button:hover {
+    background: #36B864;
+    color: white;
+    border: 0.75px solid #66666600;
+    .cardBtnArrow {
+        color: white;
+    }
+}
+.cardBtnArrow {
+    color: #9D9D9D;
+    padding-left: 7.5px;
+    transition: all 0.3s;
+}
+/* Service Section Ends */
+
+/* Quote Section Starts */
+#quote {
+    padding: 56px 0;
+}
+.quoteFlex {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
-.serviceTop h2 {
-    width: 402px;
+.quoteLeft span {
+    color: #111D15;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    line-height: 120%;
+}
+.quoteLeft h2 {
+    width: 395px;
+    color: #111D15;
+    font-family: "Outfit", sans-serif;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 120%;
+    padding-top: 18px;
+    padding-bottom: 24px;
+}
+.quoteLeft p {
+    width: 387px;
+    color: #666666;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 22.5px;
+    padding-bottom: 39px;
+}
+.quoteBtn button {
+    background: #36B864;
+    color: white;
+    padding: 12px 27px;
+    border-radius: 4.5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+/* Quote Section Ends */
+
+/* Team Section Starts */
+#team {
+    padding: 56px 0;
+}
+#team .sectionTitle {
+    width: 457px;
+}
+.teamCardFlex {
+    display: flex;
+    justify-content: space-between;
+}
+.teamCard {
+    background: white;
+    border-radius: 15px;
+    border: 0.75px solid #111d1500;
+    transition: all 0.3s;
+}
+.teamCard:hover {
+    border: 0.75px solid #83A790;
+}
+.memberDetails {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+.teamCard h4 {
+    color: #111D15;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    padding-top: 18px;
+    padding-bottom: 12px;
+}
+.rating {
+    color: #FF9800;
+    display: flex;
+    gap: 7px;
+}
+.rating .star {
+    width: 13.5px;
+    height: 12px;
+}
+.teamCard p {
+    width: 224px;
+    color: #666666;
+    font-size: 12px;
+    line-height: 150%;
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+.socialLinks {
+    color: #111D15;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.fa-brands {
+    cursor: pointer;
+}
+/* Team Section Ends */
+
+/* About Section Starts */
+#about {
+    padding: 56px 0;
+}
+.aboutFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutRight h2 {
+    width: 394px;
     color: #111D15;
     font-size: 33px;
     font-weight: 600;
     line-height: 120%;
 }
-.serviceTopRight h3 {
-    color: #111D15;
-    font-size: 15px;
-    font-weight: 600;
-}
-.serviceTopRight p {
-    width: 324px;
+.aboutRight p {
+    width: 394px;
     color: #666666;
     font-size: 12px;
-    line-height: 150%;
+    line-height: 160%;
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+.aboutPoints {
+    padding-bottom: 36px;
+}
+.pointFlex {
+    margin-top: 12px;
+    display: flex;
+    gap: 30px;
+}
+.pointFlex span {
+    width: 164px;
+    background: #F5F4F4;
+    color: #111D15;
+    border-radius: 3px;
+    padding: 9px 7.5px;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 120%;
+}
+.fa-circle-check {
+    width: 12px;
+    height: 12px;
+    color: #36B864;
+    margin-right: 6px;
+}
+.aboutBtn .btnOne {
+    padding: 9px 24px;
+    background: #36B864;
+    border-radius: 4.5px;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.aboutBtn .btnTwo {
+    padding: 9px 24px;
+    background: transparent;
+    border: 0.75px solid #666666;
+    border-radius: 4.5px;
+    color: #111D15;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 18px;
+}
+/* About Section Ends */
+
+/* Pricing Section Starts */
+#pricing {
+    background: url('../images/pricingImg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 69px;
+    padding-bottom: 278px;
+    text-align: center;
+}
+#pricing span {
+    color: white;
+    font-size: 15px;
+}
+#pricing h2 {
+    width: 413px;
+    margin: 9px auto 27px;
+    color: white;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 120%;
+}
+.subscriiptionTime {
+    width: 190px;
+    margin: 0 auto;
+    padding: 4.5px 6px;
+    background: #F4F5F8;
+    border-radius: 150px;
+}
+.capsule {
+    padding: 5px 16px;
+    border-radius: 150px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 120%;
+}
+.monthly {
+    background: #36B864;
+    color: white;
+}
+.yearly {
+    background: white;
+    color: #111D15;
+    box-shadow: 0 0 3.75px 0 #0000001a;
+}
+.pricingCardFlex {
+    margin-top: -250px;
+    margin-bottom: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pricingCard {
+    background: white;
+    border-radius: 15px;
+    padding: 22px 26px;
+    transition: all 0.3s;
+}
+.pricingCard:hover {
+    box-shadow: 0 3.75px 15px 0 #0000000d;
+}
+.pricingCard h5 {
+    color: #111D15;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 120%;
+    text-align: center;
+}
+.price {
+    background: #36B864;
+    border-radius: 7.5px;
+    color: white;
+    font-size: 12px;
+    line-height: 120%;
+    padding: 15px 30px;
+    margin-top: 18px;
+    margin-bottom: 27px;
+}
+.price span {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+}
+.pricingCard ul {
+    list-style-type: disc;
+    margin-bottom: 27px;
+    margin-left: 15px;
+}
+.pricingCard ul li {
+    color: #666666;
+    font-size: 12px;
+    line-height: 300%;
+}
+.pricingBtn button {
+    color: #111D15;
+    padding: 15px 82px;
+    background: transparent;
+    border: 0.75px solid #666666;
+    border-radius: 4.5px;
+    font-size: 12px;
+    line-height: 120%;
+    transition: all 0.3s;
+}
+.pricingBtn button:hover {
+    background: #36B864;
+    color: white;
+    border: 0.75px solid #66666600;
+}
+/* Pricing Section Ends */
+
+/* Testimonial Section Starts */
+#testimonials {
+    padding: 56px 0;
+}
+.testimonialFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonialLeft h2 {
+    width: 375px;
+    color: #111D15;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 120%;
+}
+.testimonialLeft p {
+    width: 314px;
+    padding-top: 18px;
+    padding-bottom: 27px;
+    color: #666666;
+    font-size: 12px;
+    line-height: 160%;
+}
+.testimonialBtn {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.testimonialBtn button {
+    width: 42px;
+    height: 42px;
+    background: white;
+    color: #36B864;
+    padding: 12px;
+    border: 1px solid #36B864;
+    border-radius: 7px;
+    transition: all 0.3s;
+}
+.testimonialBtn button:hover {
+    background: #36B864;
+    color: white;
+}
+.reviewCard {
+    background: #36B864;
+    border-radius: 15px;
+    padding-top: 7.5px;
+    padding-right: 7.5px;
+    box-shadow: 0 3px 7.5px 0 #0000000d;
+}
+.reviewBg {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+}
+.reviewFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+}
+.reviewCardRight {
+    position: relative;
+}
+.reviewCardRight img {
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+.reviewCardRight h5 {
+    color: #111D15;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+}
+.clientProfession {
+    color: #666666;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 9px 0;
+}
+.reviewCardRight .rating {
     margin-top: 9px;
 }
-/* Service Section Ends */
+.reviewCardRight p {
+    width: 274px;
+    color: #666666;
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 12px;
+}
+/* Testimonial Section Ends */
+
+/* Blog Section Starts */
+#blog {
+    padding: 56px 0;
+    text-align: center;
+}
+.blogCardFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blogCard {
+    background: white;
+    border-radius: 22.5px;
+    border: 0.75px solid #83a79000;
+    transition: all 0.3s;
+    padding-bottom: 15px;
+}
+.blogCard:hover {
+    border: 0.75px solid #83A790;
+    .overlay {
+        opacity: 0.3;
+}
+}
+.overlay {
+    background: #36B864;
+    width: 100%;
+    height: 99%;
+    position: absolute;
+    top: 0;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.blogImg {
+    margin-bottom: 27px;
+    position: relative;
+}
+
+.blogCardContent {
+    padding: 0 18px 15px;
+}
+.blogCard span{
+    color: #666666;
+    font-size: 10.5px;
+    margin-right: 12px;
+}
+.blogCard h3 {
+    width: 238px;
+    margin: 0 auto;
+    color: #111D15;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 120%;
+    padding-top: 9px;
+    padding-bottom: 12px;
+}
+.blogCard p {
+    width: 240px;
+    margin: 0 auto;
+    color: #666666;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 150%;
+}
+.blogCard hr {
+    border: 0.75px solid #D8D8D8;
+    margin: 18px 0;
+}
+.blogCard a {
+    color: #666666;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24.8px;
+    text-decoration: underline;
+    transition: all 0.3s;
+}
+.blogCard a:hover {
+    color: white;
+    padding: 15px 88px;
+    background: #36B864;
+    border-radius: 11px;
+    font-weight: 600;
+    line-height: 120%;
+    text-decoration: none;
+}
+/* Blog Section Ends */
+
+/* Contact Section Starts */
+/* #contact {
+    padding: 56px 0;
+}
+.contactFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+} */
+/* Contact Section Ends */
